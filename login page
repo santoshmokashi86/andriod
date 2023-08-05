@@ -1,0 +1,379 @@
+import styles from "./LOGINUSINGOTP.module.css";
+const LOGINUSINGOTP = () => {
+  return (
+    <div className={styles.loginUsingOtp}>
+      <div className={styles.loginUsingOtpChild} />
+      <div className={styles.loginUsingOtpItem} />
+      <div className={styles.enterOtp}>Enter OTP</div>
+      <div className={styles.loginUsingOtpInner} />
+      <div className={styles.rectangleDiv} />
+      <div className={styles.loginUsingOtpChild1} />
+      <div className={styles.loginUsingOtpChild2} />
+      <div className={styles.loginUsingOtpChild3} />
+      <div className={styles.loginUsingOtpChild4} />
+      <div className={styles.loginUsingOtpChild5} />
+      <div className={styles.notRecievedOtp}>Not recieved OTP? Resend</div>
+      <div className={styles.lineDiv} />
+      <div className={styles.loginUsingOtpChild6} />
+      <div className={styles.loginUsingOtpChild7} />
+      <div className={styles.loginUsingOtpChild8} />
+      <div className={styles.loginUsingOtpChild9} />
+      <div className={styles.loginUsingOtpChild10} />
+      <div className={styles.loginUsingOtpChild11} />
+      <div className={styles.loginUsingOtpChild12} />
+      <div className={styles.loginUsingOtpChild13} />
+      <div className={styles.loginUsingOtpChild14} />
+      <div className={styles.loginUsingOtpChild15} />
+      <div className={styles.loginUsingOtpChild16} />
+      <div className={styles.loginUsingOtpChild17} />
+      <img className={styles.rectangleIcon} alt="" src="/rectangle-21@2x.png" />
+      <div className={styles.div}>1</div>
+      <div className={styles.div1}>2</div>
+      <div className={styles.div2}>3</div>
+      <div className={styles.div3}>4</div>
+      <div className={styles.div4}>5</div>
+      <div className={styles.div5}>6</div>
+      <div className={styles.div6}>7</div>
+      <div className={styles.div7}>8</div>
+      <div className={styles.div8}>9</div>
+      <div className={styles.div9}>0</div>
+      <div className={styles.loginUsingOtpChild18} />
+      <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+      <img className={styles.vectorIcon1} alt="" src="/vector1.svg" />
+      <img className={styles.vectorIcon2} alt="" src="/vector2.svg" />
+      <b className={styles.pm}>10:30pm</b>
+    </div>
+  );
+};
+.loginUsingOtpChild,
+.loginUsingOtpItem {
+  position: absolute;
+  top: -34px;
+  left: -49px;
+  border-radius: 50%;
+  background-color: var(--color-darkorange-200);
+  width: 168px;
+  height: 168px;
+}
+.loginUsingOtpItem {
+  top: 726px;
+  left: 284px;
+  width: 125px;
+  height: 109px;
+}
+.enterOtp {
+  position: absolute;
+  top: 181px;
+  left: 103px;
+  display: inline-block;
+  width: 244px;
+  height: 47px;
+}
+.loginUsingOtpInner {
+  position: absolute;
+  top: 214.5px;
+  left: 104.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 148px;
+  height: 1px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 288px;
+  left: 32px;
+  background-color: var(--color-darkorange-300);
+  width: 34px;
+  height: 37px;
+}
+.loginUsingOtpChild1,
+.loginUsingOtpChild2,
+.loginUsingOtpChild3,
+.loginUsingOtpChild4,
+.loginUsingOtpChild5 {
+  position: absolute;
+  top: 288px;
+  left: 85px;
+  background-color: var(--color-darkorange-300);
+  width: 34px;
+  height: 37px;
+}
+.loginUsingOtpChild2,
+.loginUsingOtpChild3,
+.loginUsingOtpChild4,
+.loginUsingOtpChild5 {
+  left: 138px;
+}
+.loginUsingOtpChild3,
+.loginUsingOtpChild4,
+.loginUsingOtpChild5 {
+  left: 191px;
+}
+.loginUsingOtpChild4,
+.loginUsingOtpChild5 {
+  left: 244px;
+}
+.loginUsingOtpChild5 {
+  left: 297px;
+}
+.notRecievedOtp {
+  position: absolute;
+  top: 372px;
+  left: 76px;
+  font-size: 16px;
+  display: inline-block;
+  width: 264px;
+  height: 23px;
+}
+.lineDiv {
+  position: absolute;
+  top: 394.5px;
+  left: 77.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 201px;
+  height: 1px;
+}
+.loginUsingOtpChild6 {
+  position: absolute;
+  top: 470px;
+  left: 0;
+  background-color: var(--color-darkorange-300);
+  width: 360px;
+  height: 330px;
+}
+.loginUsingOtpChild7 {
+  position: absolute;
+  top: 520.5px;
+  left: -2.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 361px;
+  height: 1px;
+}
+.loginUsingOtpChild10,
+.loginUsingOtpChild11,
+.loginUsingOtpChild12,
+.loginUsingOtpChild13,
+.loginUsingOtpChild8,
+.loginUsingOtpChild9 {
+  position: absolute;
+  top: 533px;
+  left: 11px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkorange-100);
+  width: 91px;
+  height: 61px;
+}
+.loginUsingOtpChild10,
+.loginUsingOtpChild11,
+.loginUsingOtpChild12,
+.loginUsingOtpChild13,
+.loginUsingOtpChild9 {
+  left: 138px;
+}
+.loginUsingOtpChild10,
+.loginUsingOtpChild11,
+.loginUsingOtpChild12,
+.loginUsingOtpChild13 {
+  left: 265px;
+}
+.loginUsingOtpChild11,
+.loginUsingOtpChild12,
+.loginUsingOtpChild13 {
+  top: 599px;
+  left: 11px;
+}
+.loginUsingOtpChild12,
+.loginUsingOtpChild13 {
+  left: 138px;
+}
+.loginUsingOtpChild13 {
+  left: 265px;
+}
+.loginUsingOtpChild14 {
+  position: absolute;
+  left: 11px;
+  border-radius: var(--br-xl);
+}
+.loginUsingOtpChild14,
+.loginUsingOtpChild15,
+.loginUsingOtpChild16 {
+  top: 665px;
+  background-color: var(--color-darkorange-100);
+  width: 91px;
+  height: 61px;
+}
+.loginUsingOtpChild15 {
+  position: absolute;
+  left: 138px;
+  border-radius: var(--br-xl);
+}
+.loginUsingOtpChild16 {
+  left: 267px;
+}
+.loginUsingOtpChild16,
+.loginUsingOtpChild17,
+.rectangleIcon {
+  position: absolute;
+  border-radius: var(--br-xl);
+}
+.loginUsingOtpChild17 {
+  top: 731px;
+  left: 138px;
+  background-color: var(--color-darkorange-100);
+  width: 91px;
+  height: 61px;
+}
+.rectangleIcon {
+  top: 739px;
+  left: 277px;
+  width: 68px;
+  height: 42px;
+  object-fit: cover;
+}
+.div,
+.div1,
+.div2 {
+  position: absolute;
+  top: 543px;
+  left: 48px;
+  color: var(--color-gray-300);
+  display: inline-block;
+  width: 54px;
+  height: 42px;
+}
+.div1,
+.div2 {
+  top: 542px;
+  left: 172px;
+  width: 57px;
+  height: 35px;
+}
+.div2 {
+  top: 544px;
+  left: 294px;
+  color: var(--color-gray-200);
+  width: 59px;
+  height: 33px;
+}
+.div3 {
+  top: 611px;
+  left: 43px;
+  color: var(--color-gray-300);
+  width: 62px;
+  height: 38px;
+}
+.div3,
+.div4,
+.div5 {
+  position: absolute;
+  display: inline-block;
+}
+.div4 {
+  top: 611px;
+  left: 172px;
+  color: var(--color-gray-200);
+  width: 65px;
+  height: 36px;
+}
+.div5 {
+  top: 610px;
+  left: 297px;
+  color: #150101;
+  width: 72px;
+  height: 37px;
+}
+.div6 {
+  left: 48px;
+  color: #180101;
+  width: 57px;
+  height: 46px;
+}
+.div6,
+.div7,
+.div8,
+.div9 {
+  position: absolute;
+  top: 677px;
+  display: inline-block;
+}
+.div7 {
+  left: 172px;
+  color: #1f0202;
+  width: 62px;
+  height: 44px;
+}
+.div8,
+.div9 {
+  left: 297px;
+  color: var(--color-gray-100);
+  width: 64px;
+  height: 38px;
+}
+.div9 {
+  top: 742px;
+  left: 172px;
+  width: 57px;
+  height: 39px;
+}
+.loginUsingOtpChild18 {
+  position: absolute;
+  top: 731px;
+  left: 265px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkorange-100);
+  width: 91px;
+  height: 61px;
+  mix-blend-mode: darken;
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2 {
+  position: absolute;
+  height: 1.56%;
+  width: 6.94%;
+  top: 2%;
+  right: 66.67%;
+  bottom: 96.44%;
+  left: 26.39%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1,
+.vectorIcon2 {
+  height: 2.5%;
+  width: 6.42%;
+  top: 0.75%;
+  right: 2.19%;
+  bottom: 96.75%;
+  left: 91.39%;
+}
+.vectorIcon2 {
+  height: 2.19%;
+  width: 6.94%;
+  top: 1.13%;
+  right: 12.78%;
+  bottom: 96.69%;
+  left: 80.28%;
+}
+.pm {
+  position: absolute;
+  top: 1.5%;
+  left: 3.06%;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.16em;
+  font-family: var(--font-poppins);
+}
+.loginUsingOtp {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
